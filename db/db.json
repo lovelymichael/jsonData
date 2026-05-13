@@ -1,0 +1,33 @@
+{
+  "restaurants": [
+    {
+      "id": "NJa9vMznL90",
+      "name": "Publications Haldiram Pizza Hut",
+      "address": "Banglore",
+      "rating": 4.8,
+      "email": "theedupizzahut@test.com"
+    },
+    {
+      "id": "S4wDp4NyVW4",
+      "name": "T2G Haldiram Pizza Hut",
+      "address": "Banglore",
+      "rating": 4.8,
+      "email": "theedupizzahut@test.com"
+    },
+    {
+      "name": "sfs",
+      "email": "dsf@fg.fg",
+      "rating": "4",
+      "address": "bvc",
+      "id": "2LbBIs1ESus"
+    },
+    {
+      "id": "9MNepSqSCZY",
+      "name": "T2G Haldiram Pizza Hut",
+      "address": "Banglore",
+      "rating": 4.8,
+      "email": "theedupizzahut@test.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
