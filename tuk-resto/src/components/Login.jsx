@@ -1,12 +1,21 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import NavBarManu from "./NavBarManu";
+import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import NavBarManu from './NavBarManu';
 
 const Login = () => {
-  const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
+  const [name, setName] = useState('');
+  const [password, setPassword] = useState('');
 
   const navigate = useNavigate();
+
+  // CHECK LOGIN
+  useEffect(() => {
+    const user = localStorage.getItem('user');
+
+    if (user) {
+      navigate('/list');
+    }
+  }, [navigate]);
 
   const login = async () => {
     console.log(name, password);
@@ -20,11 +29,11 @@ const Login = () => {
     console.log(result);
 
     if (result.length > 0) {
-      localStorage.setItem("user", JSON.stringify(result));
+      localStorage.setItem('user', JSON.stringify(result));
 
-      navigate("/list");
+      navigate('/list');
     } else {
-      alert("Please enter correct username and password");
+      alert('Please enter correct username and password');
     }
   };
 
