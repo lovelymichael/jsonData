@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NavBarManu from "./NavBarManu";
 
 const RestaurantCreate = () => {
   const[name, setName]=useState("");
@@ -26,6 +27,7 @@ const RestaurantCreate = () => {
   }
   return (
     <div>
+      <NavBarManu/>
       <h1>RestaurantCreate</h1>
       <input onChange={(e)=>setName(e.target.value)}
         placeholder="Reastaurant Name"

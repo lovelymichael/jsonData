@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useParams, useNavigate  } from "react-router-dom";
+import NavBarManu from "./NavBarManu";
 
 const RestaurantUpdate = () => {
    
@@ -33,6 +34,7 @@ const RestaurantUpdate = () => {
     
 
       <div>
+        <NavBarManu/>
       <h1>RestaurantUpdate</h1>
       <input onChange={(e)=>setName(e.target.value)} placeholder="Restaurant Name"/>
       

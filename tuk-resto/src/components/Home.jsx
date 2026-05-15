@@ -1,9 +1,10 @@
 import React from "react";
+import NavBarManu from "./NavBarManu";
 
 const Home = ()=>{
     return(
         <div>
-            Home
+            <NavBarManu/>
         </div>
     )
 }
