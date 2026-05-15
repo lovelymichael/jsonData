@@ -4,14 +4,14 @@
       "name": "admin",
       "password": "12345"
     }
-  ],  
+  ],
   "restaurants": [
     {
-      "id": "NJa9vMznL90",
       "name": "Publications Haldiram Pizza Hut",
+      "email": "theedupizzahut@test.com",
+      "rating": "4.9",
       "address": "Banglore",
-      "rating": 4.8,
-      "email": "theedupizzahut@test.com"
+      "id": "NJa9vMznL90"
     },
     {
       "id": "S4wDp4NyVW4",
@@ -19,13 +19,6 @@
       "address": "Banglore",
       "rating": 4.8,
       "email": "theedupizzahut@test.com"
-    },
-    {
-      "name": "sfs",
-      "email": "dsf@fg.fg",
-      "rating": "4",
-      "address": "bvc",
-      "id": "2LbBIs1ESus"
     },
     {
       "id": "9MNepSqSCZY",
